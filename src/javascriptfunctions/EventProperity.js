@@ -12,6 +12,8 @@ function EventProperity() {
     }
     return (
         <form>
+            <p> This is a pragraph</p>
+            <p> This is another pragraph</p>
             <div>
                 <label>Name:</label>
                 <input className='name' type="text" name="name" onKeyUp={clickEvent}/>
