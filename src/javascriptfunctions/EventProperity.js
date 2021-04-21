@@ -12,7 +12,6 @@ function EventProperity() {
     }
     return (
         <form>
-            <h>This is header!</h>
             <div>
                 <label>Name:</label>
                 <input className='name' type="text" name="name" onKeyUp={clickEvent}/>
